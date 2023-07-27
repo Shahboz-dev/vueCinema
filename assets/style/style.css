@@ -1,0 +1,27 @@
+@import 'reset.css';
+@import './components/header.css';
+@import 'fonts.css';
+@import './components/main.css';
+@import './components/footer.css';
+
+
+:root{
+    --whiteColor:#fff;
+    --primaryColor:#040D1F;
+    --com:'Comfortaa';
+    --mon:'Montserrat';
+    --orangeColor:#ED8E00;
+    --rob:'Roboto';
+}
+
+
+body{
+    background: var(--primaryColor);
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
